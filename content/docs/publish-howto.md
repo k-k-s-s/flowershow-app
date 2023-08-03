@@ -52,7 +52,7 @@ Open Obsidian settings by clicking on the ⚙️ icon in the Obsidian ribbon (th
 
 ![[community_plugins.png]]
 
-Click on browse and find the "Flowershow" plugin.  Then, install and enable it.
+Click on browse and find the "Flowershow" plugin. Then, install and enable it.
 
 ![[flowershow_plugin.png]]
 
@@ -68,7 +68,7 @@ Great! Now the Flowershow plugin is bound with your Flowershow site's repository
 
 ## Publish your notes
 
-There are two ways you can publish your notes with the Flowershow plugin. 
+There are two ways you can publish your notes with the Flowershow plugin.
 
 ### Using Flowershow commands available in Obsidian commands palette
 
@@ -83,7 +83,7 @@ This gives you two options:
 
 ### Using Flowershow Publish Status modal
 
-Click on 🌱 icon in Obsidian ribbon (the leftmost vertical part of the sidebar on the left). This will open the Flowershow Publish Status modal showing you all the published, published but changed, and not yet published notes, as well as notes that has been deleted from the vault but are still published. 
+Click on 🌱 icon in Obsidian ribbon (the leftmost vertical part of the sidebar on the left). This will open the Flowershow Publish Status modal showing you all the published, published but changed, and not yet published notes, as well as notes that has been deleted from the vault but are still published.
 
 ![[publish_status.png]]
 
@@ -97,6 +97,8 @@ After you publish your notes in Obsidian, the plugin will push them to your GitH
 
 And that's it!
 
-## 🚧 (Coming soon) Customise your website
+## 🚧 (Coming soon) Customise your website in Flowershow plugin settings
 
-Customise your website in Flowershow plugin settings.
+Currently there is no way to customise your Flowershow website in Obsidian. However, we're working on it and it will be available soon! 🚧
+
+As a workaround, you can customise your Flowershow website by editing the `config.js` file in your Flowershow repository. You can find it in the `/content` folder of your Flowershow site's repository. You can edit it directly on GitHub.

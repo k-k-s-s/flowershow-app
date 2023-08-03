@@ -24,6 +24,7 @@ export default function Home() {
                         publish your digital garden directly from Obsidian, in just a few easy steps, without having to use the command line at all!
                         <p>👉 See our <a href="/docs/publish-howto">self-publish howto</a> to get started.</p>
                         PS: It's so good, the Flowershow CLI has been deprecated and will no longer be maintained 😎
+                        <p>🚧 TBD: Support for configuring Flowershow from the Obsidian settings UI.</p>
                     </p>
                 </div>
             </div>
