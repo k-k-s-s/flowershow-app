@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import WhatIsFlowershow from "../components/WhatIsFlowershow";
 import Features from "../components/Features";
 import SelfPublishSteps from "../components/SelfPublishSteps";
+import CloudPublishSteps from "../components/CloudPublishSteps";
 import type { CustomAppProps } from "./_app";
 
 type HomePageProps = CustomAppProps;
@@ -15,6 +16,7 @@ export default function Home() {
             <Hero />
             <WhatIsFlowershow />
             <SelfPublishSteps />
+            <CloudPublishSteps />
             <Features />
             {/** Why the name? **/}
             <div className="py-10 sm:px-2 lg:relative lg:px-0">
