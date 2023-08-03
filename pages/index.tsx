@@ -15,6 +15,20 @@ export default function Home() {
         <main>
             <Hero />
             <WhatIsFlowershow />
+
+            <div className="py-10 sm:px-2 lg:relative lg:px-0" id="overview">
+                <div className="prose dark:prose-invert mx-auto max-w-6xl px-4 lg:max-w-6xl lg:px-8 xl:px-12">
+                    <h2 className="text-center">🚀 Now available as Obsidian plugin! 🚀</h2>
+                    <p>
+                        Flowershow is now available as an Obsidian plugin! This means you can now
+                        publish your digital garden directly from Obsidian, in just a few easy steps, without having to use the command line at all!
+                        <p>👉 See our <a href="/docs/publish-howto">self-publish howto</a> to get started.</p>
+                        PS: It's so good, the Flowershow CLI has been deprecated and will no longer be maintained 😎
+                    </p>
+                </div>
+            </div>
+
+
             <SelfPublishSteps />
             <CloudPublishSteps />
             <Features />
